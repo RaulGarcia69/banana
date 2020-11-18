@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden;
+    transition: 0.6s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+li {
+    float: left;
+    width: 33.33%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+li img {
+    width: 25%;
+    float: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    background-image: url("../img/pexels-photo-919734.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 100px;
+}
+
+
+/*Utilizar aplicacion*/
+
+.two-column-section-2 {
+    float: left;
+    width: 50%;
+    padding: 1% 4%;
+}
+
+.two-column-section-2-b {
+    float: left;
+    width: 50%;
+    padding: 8% 4%;
+}
+
+.two-column-section-2-b img {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.two-column-section-2 h1 {
+    font-size: 5vw;
+}
+
+.two-column-section-2 p {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+
+/*Quienes somos*/
+
+.two-column-section-1 {
+    width: 50%;
+    padding: 0% 4%;
+    float: left;
+}
+
+.two-column-section-1 p {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.two-column-section-1 img {
+    width: 100%;
+    padding: 7% 2%;
+    border-radius: 100px;
+}
+
+.two-column-section-1 h2 {
+    font-size: 35px;
+}
+
+#two-column-section-1b p {
+    font-size: 20px;
+}
+
+#two-column-section-1b h2 {
+    font-size: 33px;
+    text-align: center;
+}
+
+.two-column-section-1 h1,
+.one-column-section-1 h1 {
+    font-size: 5vw;
+}
+
+.one-column-section-1 {
+    float: left;
+    width: 100%;
+    padding: 0% 4%;
+    text-align: center;
+}
+
+.one-column-section-1 p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*Footer*/
+
+#footer-1 {
+    width: 100%;
+    padding: 2%;
+    float: left;
+}
+
+#footer-2 {
+    width: 20%;
+    float: left;
+    padding-left: 1%;
+}
+
+#footer-2 img {
+    width: 70%;
+}
+
+.footer-3 {
+    width: 38%;
+    padding: 50px 0px;
+    float: right;
+}
+
+.footer-3 img {
+    width: 80%;
+    float: right;
+    padding-right: 10%;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <title>Bannana-PC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <ul id="nav">
+        <li><a href="#section-1">Quienes somos?</a></li>
+        <li><a href="#section-2">Por que deberias usarnos?</a></li>
+        <li><a href="#section-3">Contactanos</a></li>
+
+    </ul>
+    <div class="header">
+        <h1>Welcome to</h1>
+        <h1>Bannana-PC</h1>
+    </div>
+
+    <!--Sección quines somos -->
+    <div class="row" id="section-1">
+        <div class="two-column-section-1">
+            <h1>¿Quienes somos?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut consectetur quam. Donec elit tellus, ullamcorper malesuada malesuada sed, vestibulum ac sem.</p>
+            <p>Praesent at orci nec mauris ultrices finibus sit amet a sapien. Vestibulum ut varius eros. Nunc hendrerit et lectus id laoreet. Etiam nec lobortis libero, id dictum mi.</p>
+        </div>
+        <div class="two-column-section-1">
+            <img src="./img/section-1.png" alt="Imagen no carga">
+        </div>
+    </div>
+    <div class="row">
+        <div class="two-column-section-1">
+            <img src="./img/section-2.jpg" alt="Imagen no carga">
+        </div>
+        <div class="two-column-section-1">
+            <h1>Nuestra Mision</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut consectetur quam. Donec elit tellus, ullamcorper malesuada malesuada sed, vestibulum ac sem. Praesent at orci nec mauris ultrices finibus sit amet a sapien. Vestibulum ut
+                varius eros. Nunc hendrerit et lectus id laoreet. Etiam nec lobortis libero, id dictum mi.</p>
+        </div>
+    </div>
+
+    <!--Sección utilizar aplicacion -->
+    <div class="row" id="section-2">
+        <div class="two-column-section-2">
+            <h1>¿Porque deberias utilizar nuestra aplicación?</h1>
+            <p>Nuestra aplicación es perfecta para todas aquellas personas que quieran montarse un ordenador.</p>
+            <p>Proporcionamos soporte para expertos y para inexportos para tener el ordenador de sus sueños</p>
+        </div>
+        <div class="two-column-section-2-b">
+            <img src="img/happybannana.jpg " alt="Happy Bannana ">
+        </div>
+    </div>
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 130 || document.documentElement.scrollTop > 130) {
+                document.getElementById("nav").style.backgroundColor = "black ";
+            } else {
+                document.getElementById("nav").style.backgroundColor = "rgba(0,0,0,0.0) ";
+            }
+        }
+    </script>
+
+    <!--Sección mapa -->
+
+    <div class="row">
+        <div class="one-column-section-1">
+            <h1>¡Encuentranos!</h1>
+        </div>
+        <div class="two-column-section-1" id="two-column-section-1b">
+            <h2>¡Ven a visitarnos a nuestras oficinas!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut consectetur quam. Donec elit tellus, ullamcorper malesuada malesuada sed, vestibulum ac sem. Praesent at orci nec mauris ultrices finibus sit amet a sapien.</p>
+        </div>
+        <div class="two-column-section-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23947.02841311463!2d2.1543367395507818!3d41.38758469999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a32968df7151%3A0xf9596a857f5c655e!2sPcComponentes%20Xperience%20Center!5e0!3m2!1ses!2ses!4v1605641774603!5m2!1ses!2ses"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+    <!--Sección footer -->
+
+    <div class="row" id="footer-1">
+        <div id="footer-2">
+            <a href="https://help.instagram.com/"><img src="img/instagram.png"></a>
+            <a href="https://www.twitter.com/"><img src="img/twitter.jpg"></a>
+        </div>
+        <div class="footer-3">
+            <a href="https://play.google.com/"><img src="img/play-store.png"></a>
+        </div>
+        <div class="footer-3">
+            <a href="https://www.apple.com/es/ios/app-store/"><img src="img/app-store.png"></a>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
